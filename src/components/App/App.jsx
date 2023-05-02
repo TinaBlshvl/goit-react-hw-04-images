@@ -39,7 +39,7 @@ export const App = () => {
     setLoader(true);
 
     async function fetch(prevProp, prevState) {
-      if ((page = 1)) {
+      if (page === 1) {
         // this.setState({
         //   result: [],
         //   total: 0,
