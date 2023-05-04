@@ -2,10 +2,10 @@
 // import css from '../styles/Styles';
 import css from '../styles/Styles.module.css';
 
-export const Button = ({ loading, numberPage }) => {
+export const Button = ({ loadMore, numberPage }) => {
   const handleClick = () => {
     const newPage = numberPage + 1;
-    loading(newPage);
+    loadMore(newPage);
   };
 
   return (

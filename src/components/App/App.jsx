@@ -72,7 +72,7 @@ export const App = () => {
           // result: [...prevState.result, ...res],
           // loader: false,
           // page,
-          setResult(prevResults => [...prevState.result, ...res]);
+          setResult(prevResults => [...prevResults, ...res]);
           setLoader(false);
           setPage(page);
         } catch (error) {
